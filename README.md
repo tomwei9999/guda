@@ -1,2 +1,2 @@
 # guda
-fgo material
+fgo material manager
