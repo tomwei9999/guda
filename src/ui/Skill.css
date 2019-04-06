@@ -1,0 +1,14 @@
+
+.Skill_levelGrid {
+  font-size: 16px;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  margin:4px 0;
+  flex-grow: 1;
+  text-align:right;
+}
+
+.Skill_level {
+  position: relative;
+  padding-top: 2px;
+}

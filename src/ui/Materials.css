@@ -1,0 +1,52 @@
+.Materials_mat {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 8px 8px 4px;
+  border-top: 1px solid #dcdcdc;
+  position: relative;
+  font-size: 14px;
+}
+
+.Materials_matRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-grow: 1;
+  flex-shrink: 1;
+  /* white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; */
+}
+
+.Materials_matInput {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2px;
+  width: 100%;
+}
+
+.Materials_matInput input {
+  width: 48px;
+  font-size: 16px;
+  border: none;
+}
+
+.Materials_matIcon {
+  width: 36px;
+  padding: 0 8px;
+}
+
+.Materials_cat {
+  border-top: 1px solid #dcdcdc;
+  line-height: 32px;
+  background: #ececec;
+  text-align: left;
+  padding-left: 8px;
+}
+
+.Materials_tab {
+  position: absolute;
+}
