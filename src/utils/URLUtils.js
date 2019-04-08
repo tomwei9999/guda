@@ -221,22 +221,22 @@ export default {
       }).join(',');
     }
     if (queryVal === ',,,,,,,') {
-      window.history.replaceState("", "", `/${this.removeQuery(String(parseInt(id)))}`);
+      window.history.replaceState("", "", `${window.location.pathname}${this.removeQuery(String(parseInt(id)))}`);
     } else {
-      window.history.replaceState("", "", `/${this.setQuery(String(parseInt(id)), queryVal)}`);
+      window.history.replaceState("", "", `${window.location.pathname}${this.setQuery(String(parseInt(id)), queryVal)}`);
     }
   },
 
   updateEvents(configs) {
     const c = new Array(configs.length).fill(null);
     const val = c.map((_, index) => configs[index] ? '1':'0').join('');
-    window.history.replaceState("", "", `/${this.setQuery(EVENTS_KEY, val)}`);
+    window.history.replaceState("", "", `${window.location.pathname}${this.setQuery(EVENTS_KEY, val)}`);
   },
 
   updateMaterials(configs) {
     const vals = Object.keys(matMap).map((_, index) => {
       return configs[matMapRev[index]];
     });
-    window.history.replaceState("", "", `/${this.setQuery(MATERIAL_KEY, vals.map(v => v === 0? '': v).join(','))}`);
+    window.history.replaceState("", "", `${window.location.pathname}${this.setQuery(MATERIAL_KEY, vals.map(v => v === 0? '': v).join(','))}`);
   },
 };
