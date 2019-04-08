@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/guda/static/media/70px-Icon_Servant_124.52c97c61.png"
   },
   {
-    "revision": "bc9ffa7ee1988cdfac95",
+    "revision": "2c2fae8e4ad666e6651e",
     "url": "/guda/static/css/main.0c53db17.chunk.css"
   },
   {
@@ -492,8 +492,8 @@ self.__precacheManifest = [
     "url": "/guda/static/media/70px-Icon_Servant_123.7e999092.png"
   },
   {
-    "revision": "bc9ffa7ee1988cdfac95",
-    "url": "/guda/static/js/main.bc9ffa7e.chunk.js"
+    "revision": "2c2fae8e4ad666e6651e",
+    "url": "/guda/static/js/main.2c2fae8e.chunk.js"
   },
   {
     "revision": "544fec77b67f60aec37eeaaa1aaeb5e0",
@@ -980,7 +980,7 @@ self.__precacheManifest = [
     "url": "/guda/static/media/back.549d5c7c.png"
   },
   {
-    "revision": "f0f44cb6a660f6ecfb01307eaf5c3455",
+    "revision": "79a14036cddb168a751365c6096972a8",
     "url": "/guda/index.html"
   }
 ];

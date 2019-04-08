@@ -1,7 +1,7 @@
 {
   "main.css": "/guda/static/css/main.0c53db17.chunk.css",
-  "main.js": "/guda/static/js/main.bc9ffa7e.chunk.js",
-  "main.js.map": "/guda/static/js/main.bc9ffa7e.chunk.js.map",
+  "main.js": "/guda/static/js/main.2c2fae8e.chunk.js",
+  "main.js.map": "/guda/static/js/main.2c2fae8e.chunk.js.map",
   "static/js/1.d307668e.chunk.js": "/guda/static/js/1.d307668e.chunk.js",
   "static/js/1.d307668e.chunk.js.map": "/guda/static/js/1.d307668e.chunk.js.map",
   "runtime~main.js": "/guda/static/js/runtime~main.41060a9d.js",
@@ -249,6 +249,6 @@
   "static/media/back.png": "/guda/static/media/back.549d5c7c.png",
   "static/css/main.0c53db17.chunk.css.map": "/guda/static/css/main.0c53db17.chunk.css.map",
   "index.html": "/guda/index.html",
-  "precache-manifest.6ba67d44dfaed4d1629faecd93304216.js": "/guda/precache-manifest.6ba67d44dfaed4d1629faecd93304216.js",
+  "precache-manifest.e9073c592ef3a153db92c705b2522370.js": "/guda/precache-manifest.e9073c592ef3a153db92c705b2522370.js",
   "service-worker.js": "/guda/service-worker.js"
 }
