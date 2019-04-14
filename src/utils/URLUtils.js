@@ -20,6 +20,17 @@ const complete = {
   S3T: 10,
   S3C: 10,
 };
+
+const complete4 = {
+  AT: 4,
+  AC: 4,
+  S1T: 4,
+  S1C: 4,
+  S2T: 4,
+  S2C: 4,
+  S3T: 4,
+  S3C: 4,
+};
 const KEYS = [
 'AC',
 'AT',
@@ -145,7 +156,9 @@ export default {
     if (string == null) {
       return empty;
     } else if (string == 'D') {
-      return complete;
+      return {...complete};
+    } else if (string === 'F') {
+      return {...complete4};
     } else {
       const rawConfig = string.split(',');
       return {
@@ -207,9 +220,15 @@ export default {
       const val = servantConfig[k];
       return k[0] === 'A' ? val === 4 : val === 10;
     });
+    const complete4 = KEYS.every(k => {
+      const val = servantConfig[k];
+      return val === 4;
+    });
     let queryVal;
     if (complete) {
       queryVal = 'D';
+    } else if (complete4) {
+      queryVal = 'F';
     } else {
       queryVal = KEYS.map(k => {
         const val = servantConfig[k];
